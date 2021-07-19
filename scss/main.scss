@@ -1970,6 +1970,32 @@ p.cardText {
   visibility: hidden;
 }
 
+/* Styles for Leadership Team Section of the About Page */
+#our-team {
+  background-color: $off-white;
+  padding: 30px;
+
+  header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 600px;
+    margin: 80px auto 24px auto;
+  }
+}
+
+.leader-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  max-width: 1440px; 
+}
+
+.leader-card {
+  margin: 25px;
+} 
 .starting-projects-container {
   display: flex;
   flex-direction: column;
